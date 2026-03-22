@@ -12,7 +12,7 @@ const ChatBot = () => {
     setMessages(prev => [...prev, { role: 'user', content: input }]);
     
     try {
-      const res = await axios.post('http://localhost:5000/api/chat', 
+      const res = await axios.post('http://localhost:5000/api/chat',
         { message: input });
       setMessages(prev => [...prev, { role: 'bot', ...res.data }]);
     } catch {

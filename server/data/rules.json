@@ -1,0 +1,7 @@
+{
+  "attendance": {
+    "min": "75%",
+    "grace": "5%",
+    "note": "Below 75% attendance pe exam debar ho sakta hai."
+  }
+}

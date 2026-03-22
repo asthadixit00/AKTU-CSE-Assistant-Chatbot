@@ -1,0 +1,9 @@
+{
+  "CSE": {
+    "6": [
+      { "code": "BCS601", "name": "Software Engineering", "credits": 4 },
+      { "code": "BCS602", "name": "Compiler Design", "credits": 4 },
+      { "code": "BCS603", "name": "Computer Networks", "credits": 4 }
+    ]
+  }
+}
